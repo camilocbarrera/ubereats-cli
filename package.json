@@ -1,0 +1,65 @@
+{
+  "name": "ubereats-cli",
+  "version": "0.0.1",
+  "description": "Order from Uber Eats via terminal, REST API, or MCP server for Claude",
+  "author": "Cristian Correa",
+  "license": "MIT",
+  "keywords": [
+    "uber-eats",
+    "cli",
+    "food-delivery",
+    "mcp",
+    "claude",
+    "hono",
+    "bun"
+  ],
+  "bin": {
+    "ubereats": "index.ts"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "files": [
+    "index.ts",
+    "server.ts",
+    "src/**/*.ts",
+    "README.md",
+    "CLAUDE.md"
+  ],
+  "scripts": {
+    "setup": "bun run src/setup.ts",
+    "whoami": "bun run src/commands/whoami.ts",
+    "search": "bun run src/commands/search.ts",
+    "restaurants": "bun run src/commands/restaurants.ts",
+    "store": "bun run src/commands/store.ts",
+    "product": "bun run src/commands/product.ts",
+    "cart": "bun run src/commands/cart.ts",
+    "add-to-cart": "bun run src/commands/add-to-cart.ts",
+    "remove-from-cart": "bun run src/commands/remove-from-cart.ts",
+    "checkout": "bun run src/commands/checkout.ts",
+    "place-order": "bun run src/commands/place-order.ts",
+    "orders": "bun run src/commands/orders.ts",
+    "tip": "bun run src/commands/tip.ts",
+    "login": "bun run src/commands/login.ts",
+    "addresses": "bun run src/commands/addresses.ts",
+    "server": "bun run server.ts",
+    "mcp": "bun run src/mcp/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.6",
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "hono": "^4.12.9",
+    "ora": "^9.3.0",
+    "zod": "^4.3.6"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.58.2"
+  }
+}
