@@ -1,4 +1,10 @@
-# ubereats-cli
+```
+  _   _ _                ___       _
+ | | | | |__   ___ _ __ | __|__ _ | |_ ___
+ | |_| | '_ \ / _ \ '__ | _|/ _` ||  _(_-<
+  \___/|_.__/ \___/_|   |___\__,_| \__/__/
+              CLI
+```
 
 Order from Uber Eats via the terminal, REST API, or MCP server for Claude Code.
 
