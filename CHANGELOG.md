@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2 (2026-04-01)
+
+### Bug Fixes
+
+- Include `src/ui/logo.txt` in npm package so the chafa-rendered ASCII art banner displays correctly
+
 ## 0.0.1 (2026-04-01)
 
 ### Initial Release
