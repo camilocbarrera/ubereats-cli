@@ -1,12 +1,8 @@
-```
-  _   _ _                ___       _
- | | | | |__   ___ _ __ | __|__ _ | |_ ___
- | |_| | '_ \ / _ \ '__ | _|/ _` ||  _(_-<
-  \___/|_.__/ \___/_|   |___\__,_| \__/__/
-              CLI
-```
+<p align="center">
+  <img src="assets/logo.png" alt="Uber Eats CLI" width="300">
+</p>
 
-Order from Uber Eats via the terminal, REST API, or MCP server for Claude Code.
+<p align="center">Order from Uber Eats via the terminal, REST API, or MCP server for Claude Code.</p>
 
 ## Install
 
