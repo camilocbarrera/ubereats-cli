@@ -1,9 +1,12 @@
 {
-  "name": "ubereats-cli",
+  "name": "@crafter/ubereats-cli",
   "version": "0.0.2",
   "description": "Order from Uber Eats via terminal, REST API, or MCP server for Claude",
   "author": "Cristian Correa",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "uber-eats",
     "cli",

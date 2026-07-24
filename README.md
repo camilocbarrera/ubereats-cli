@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install -g ubereats-cli
+npm install -g @crafter/ubereats-cli
 ```
 
 ## Quick Start
